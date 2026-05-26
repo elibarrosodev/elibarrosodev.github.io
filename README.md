@@ -1,58 +1,18 @@
-# Eli Portfolio — Vercel Contact Form
+# Eli Barroso Portfolio
 
-A clean architecture Next.js portfolio converted from the provided HTML design.
+Professional portfolio website for Eli Barroso, a freelance software developer focused on mobile and web applications for business systems.
 
-## Structure
+## Tech Stack
 
-```txt
-app/
-  page.tsx                  # route only
-  api/contact/route.ts      # API endpoint only
-src/
-  presentation/             # UI components and hooks
-  application/              # use cases
-  domain/                   # validation and types
-  infrastructure/           # email provider implementation
-```
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Web3Forms
+- Vercel
 
-## Setup
+## Contact
 
-1. Install dependencies:
-
-```bash
-npm install
-```
-
-2. Create `.env.local` from `.env.example`:
-
-```bash
-cp .env.example .env.local
-```
-
-3. Add your Resend API key and receiver email:
-
-```env
-RESEND_API_KEY=re_your_api_key_here
-CONTACT_TO_EMAIL=your-email@example.com
-CONTACT_FROM_EMAIL=Portfolio Contact <onboarding@resend.dev>
-```
-
-4. Run locally:
-
-```bash
-npm run dev
-```
-
-5. Deploy to Vercel:
-
-- Push this folder to GitHub.
-- Import the repository in Vercel.
-- Add the same environment variables in Vercel Project Settings.
-- Deploy.
-
-## Notes
-
-- The contact form posts to `/api/contact`.
-- The API route calls the application use case.
-- The use case validates the message before calling the email service.
-- Replace the visible contact email/social links in `src/config/siteContent.ts` when ready.
+Email: elibarrosodev@gmail.com  
+LinkedIn: https://www.linkedin.com/in/elireom-dev/  
+GitHub: https://github.com/elibarrosodev  
+Instagram: https://www.instagram.com/elibarrosodev/
