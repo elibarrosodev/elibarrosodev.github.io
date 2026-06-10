@@ -32,7 +32,7 @@ const timeline = [
 
 export function TimelineSection() {
   return (
-    <section className="overflow-hidden px-6 py-32 md:px-24" id="studio">
+    <section className="overflow-hidden px-6 py-32 md:px-24" id="journey">
       <div className="grid grid-cols-1 gap-16 md:grid-cols-12">
         <div className="md:col-span-4">
           <h4 className="mb-8 font-label text-xs uppercase tracking-[0.4em] text-primary-container">
